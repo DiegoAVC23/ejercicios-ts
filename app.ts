@@ -1,4 +1,4 @@
-import { areayPerimetroCuadrado, areayPerimetroCirculo, areayPerimetroTriangulo} from "./perimetros/perimetros"
+import { AreayPerimetroCuadrado } from "./perimetros/perimetros";
 
 const figuras = {
     circulo:{
@@ -12,6 +12,4 @@ const figuras = {
         lado:80
     }
 }
-console.log(areayPerimetroCuadrado(figuras.cuadrado.lado));
-console.log(areayPerimetroCirculo(figuras.circulo.radio));
-console.log(areayPerimetroTriangulo(figuras.triangulo.base));
+console.log(AreayPerimetroCuadrado(figuras.cuadrado.lado));
